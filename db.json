@@ -1,0 +1,91 @@
+{
+  "destinations": [
+    {
+      "id": "f693",
+      "name": "Miami",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "37df",
+      "name": "Miami",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "9fcc",
+      "name": "Miami",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "0a74",
+      "name": "Miami",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "0301",
+      "name": "Miami",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "dc01",
+      "name": "Israel",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "bcab",
+      "name": "Israel",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "e8eb",
+      "name": "Israel",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "da9c"
+    },
+    {
+      "id": "8c32",
+      "name": "ישראל",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "c4a0",
+      "name": "נינמ",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "0417",
+      "name": "נינמ",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": 8.2
+    },
+    {
+      "id": "0f9c",
+      "name": "נינמ",
+      "description": "This is a great southern city",
+      "image": "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+      "score": "99"
+    }
+  ]
+}

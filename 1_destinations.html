@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <div id="display2"></div>
+    <div id="display"></div>
+    <br>
+    name:<input id="newDestination">
+    <br>
+    score:<input id="newScore">
+    <button onclick="addDestination()">Add </button>
+
+    <script>
+        let myDestinations
+
+        async function getDestinations() {
+            const response = await axios.get('http://localhost:3000/destinations/')
+            myDestinations = response.data
+                // map - loop over the array for each destination - turns it into a string.
+
+       
+                display2.innerHTML = myDestinations.map(destination => `${destination.name} - ${destination.score}
+                                                                    <button onclick="deleteDestination(${destination.id})">Delete</button><br>`).join('')
+        }
+
+        getDestinations()
+
+    
+
+        const newDestination = {
+            name: 'Israel',
+            description: 'This is a great southern city',
+            image: "https: //cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+            score: 8.2,
+        };
+
+        async function addDestination() {
+            const newDestinationName = document.getElementById('newDestination').value;
+            const newDestinationScore = document.getElementById('newScore').value;
+            newDestination.name = newDestinationName;
+            newDestination.score = newDestinationScore;
+            await axios.post(`http://localhost:3000/destinations/`, newDestination, )
+            console.log('added')
+            await getDestinations()
+
+        }
+
+        async function deleteDestination(destinationId) {
+            await axios.delete(`http://localhost:3000/destinations/${destinationId}`)
+            await getDestinations()
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
